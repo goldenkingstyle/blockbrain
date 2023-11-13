@@ -1,72 +1,75 @@
-.Header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 1500px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 15px;
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 15px;
 }
 
-.logo{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.logo img{
-    display: block;
-    padding-right: 10px;
+.logo img {
+  display: block;
+  padding-right: 10px;
 }
 
-.logo-text{
-    font-size: 24px;
-    font-weight: 600 ;
+.logo-text {
+  font-size: 24px;
+  font-weight: 600;
 }
 
-.nav{
-    width: 30%;
-    display: flex;
-    justify-content: space-between;
+.nav {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
 }
 
-.nav a{
-    font-size: 20px;
-    font-weight: 500;
+.nav a {
+  font-size: 20px;
+  font-weight: 500;
 }
 
-.nav a:hover{
-    color: #d0d0d0;
-    transition: .2s;
+.nav a:hover {
+  color: #d0d0d0;
+  transition: 0.2s;
 }
 
-.auth-btns{
-    display: flex;
-    justify-content: space-between;
-    width: 25%;
+.auth-btns {
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+  flex-wrap: nowrap;
 }
 
-.login a, .signup a{
-    display: block;
-    padding: 20px 50px;
-    border-radius: 15px;
+.login a,
+.signup a {
+  display: block;
+  padding: 20px 50px;
+  border-radius: 15px;
+  margin: 0 10px;
 }
 
-.login a{
-    border: 1px solid #fff;
+.login a {
+  border: 1px solid #fff;
 }
 
-.login a:hover{
-    background-color: rgba(255, 255, 255, 0.09);
-    transition: .2s;
+.login a:hover {
+  background-color: rgba(255, 255, 255, 0.09);
+  transition: 0.2s;
 }
 
-.signup a{
-    background-color: #fff;
-    color: #000;
+.signup a {
+  background-color: #fff;
+  color: #000;
 }
 
-.signup a:hover{
-    background-color: rgb(173, 173, 173);
-    transition: .2s;
+.signup a:hover {
+  background-color: rgb(173, 173, 173);
+  transition: 0.2s;
 }
