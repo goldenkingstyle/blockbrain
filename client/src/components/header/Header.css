@@ -3,7 +3,6 @@
   align-items: center;
   justify-content: space-between;
   max-width: 1500px;
-  width: 100%;
   margin: 0 auto;
   padding: 15px;
 }
@@ -25,7 +24,8 @@
 }
 
 .nav {
-  width: 30%;
+  max-width: 460px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
@@ -43,8 +43,8 @@
 .auth-btns {
   display: flex;
   justify-content: space-between;
-  width: 25%;
-  flex-wrap: nowrap;
+  max-width: 400px;
+  width: 100%;
 }
 
 .login a,
@@ -52,7 +52,6 @@
   display: block;
   padding: 20px 50px;
   border-radius: 15px;
-  margin: 0 10px;
 }
 
 .login a {
@@ -72,4 +71,10 @@
 .signup a:hover {
   background-color: rgb(173, 173, 173);
   transition: 0.2s;
+}
+
+@media (max-width: 1250px) {
+  .auth-btns {
+    display: none;
+  }
 }
