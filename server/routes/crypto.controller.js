@@ -2,7 +2,7 @@ const axios = require("axios");
 
 class cryptoContoller {
   async getAddress(req, res) {
-    const address = req.body.address;
+    const { address } = req.query;
 
     const json = await axios
       .get(`https://blockchain.info/rawaddr/${address}`)

@@ -13,7 +13,7 @@ const Home = () => {
   const navigate = useNavigate();
 
   const handleSearchClick = () => {
-    navigate("/address/" + value);
+    navigate("/address/" + value, { state: { value } });
   };
 
   return (

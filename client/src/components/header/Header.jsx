@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../../images/logo.png";
+import burger from "../../images/burger.png";
 import { Link } from "react-router-dom";
 import "./Header.css";
 
@@ -22,6 +23,9 @@ export default function Header() {
         <div className="signup">
           <Link to={"/signup"}>Sign Up</Link>
         </div>
+      </div>
+      <div className="burger">
+        <img src={burger} alt="" />
       </div>
     </div>
   );

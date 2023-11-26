@@ -11,6 +11,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-right: 40px;
 }
 
 .logo img {
@@ -73,8 +74,22 @@
   transition: 0.2s;
 }
 
+.burger {
+  display: none;
+}
+
 @media (max-width: 1250px) {
   .auth-btns {
     display: none;
+  }
+}
+
+@media (max-width: 620px) {
+  .nav {
+    display: none;
+  }
+
+  .burger {
+    display: block;
   }
 }
